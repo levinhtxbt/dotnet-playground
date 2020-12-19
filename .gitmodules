@@ -1,0 +1,3 @@
+[submodule "packages/m1cx.api"]
+	path = packages/m1cx.api
+	url = https://vinh-siliconstack-com-au@bitbucket.org/siliconstack/m1cx.api.git

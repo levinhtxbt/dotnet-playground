@@ -1,0 +1,118 @@
+{
+  "Routes": [
+    // Identity API config
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1401
+        }
+      ],
+      "UpstreamPathTemplate": "/identity/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Patch", "Delete", "Option" ],
+      "Key": "identity",
+      "SwaggerKey": "identity"
+    },
+    // Product API config
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1402
+        }
+      ],
+      "UpstreamPathTemplate": "/product/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Patch", "Delete", "Option" ],
+      "Key": "product",
+      "SwaggerKey": "product"
+    },
+    // Inventory API config
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1403
+        }
+      ],
+      "UpstreamPathTemplate": "/inventory/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Patch", "Delete", "Option" ],
+      "Key": "inventory",
+      "SwaggerKey": "inventory"
+    },
+    // Carting API config
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1404
+        }
+      ],
+      "UpstreamPathTemplate": "/cart/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Patch", "Delete", "Option" ],
+      "Key": "cart",
+      "SwaggerKey": "cart"
+    }
+  ],
+  // Swagger.
+  "SwaggerEndPoints": [
+    {
+      "Key": "identity",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Identity",
+          "Version": "v1",
+          "Url": "http://localhost:1401/swagger/v1/swagger.json"
+
+        }
+      ]
+    },
+    {
+      "Key": "product",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Product",
+          "Version": "v1",
+          "Url": "http://localhost:1402/swagger/v1/swagger.json"
+
+        }
+      ]
+    },
+    {
+      "Key": "inventory",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Inventory",
+          "Version": "v1",
+          "Url": "http://localhost:1403/swagger/v1/swagger.json"
+
+        }
+      ]
+    },
+    {
+      "Key": "cart",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Cart",
+          "Version": "v1",
+          "Url": "http://localhost:1404/swagger/v1/swagger.json"
+
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:11000"
+  }
+}
