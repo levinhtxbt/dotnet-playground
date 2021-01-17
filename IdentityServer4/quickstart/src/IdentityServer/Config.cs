@@ -55,6 +55,9 @@ namespace IdentityServer
 
                     // where to redirect to after login
                     RedirectUris = { "https://localhost:5002/signin-oidc" },
+                    
+                    // enable support for refresh tokens 
+                    AllowOfflineAccess = true,
 
                     // where to redirect to after logout
                     PostLogoutRedirectUris = { "https://localhost:5002/signout-callback-oidc" },
@@ -62,7 +65,8 @@ namespace IdentityServer
                     AllowedScopes = new List<string>
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile
+                        IdentityServerConstants.StandardScopes.Profile,
+                        "api1"
                     }
                 }
             };

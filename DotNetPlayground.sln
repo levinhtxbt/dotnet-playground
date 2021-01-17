@@ -7,25 +7,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\Co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenTelemetry", "OpenTelemetry", "{BE05AC8B-081E-4A8A-970A-42AB6C6C9B3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetry.ASPNetCore", "OpenTelemetry\OpenTelemetry.ASPNetCore\OpenTelemetry.ASPNetCore.csproj", "{3E8E2733-FA46-4AAE-8070-2D7F5BDCEA36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenTelemetry.ASPNetCore", "OpenTelemetry\OpenTelemetry.ASPNetCore\OpenTelemetry.ASPNetCore.csproj", "{3E8E2733-FA46-4AAE-8070-2D7F5BDCEA36}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenTelemetryConsole", "OpenTelemetry\OpenTelemetryConsole\OpenTelemetryConsole.csproj", "{7D90BFB2-7B0F-4577-B1D2-2A35090E6353}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenTelemetryConsole.Tracer", "OpenTelemetry\OpenTelemetryConsole.Tracer\OpenTelemetryConsole.Tracer.csproj", "{2BEDB843-95C3-4DF0-8D44-B8F6B6EDD5EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetry.WebAPI", "OpenTelemetry\OpenTelemetry.WebAPI\OpenTelemetry.WebAPI.csproj", "{6D95BA81-56DF-463D-BBA5-FCCCD3779481}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenTelemetry.WebAPI", "OpenTelemetry\OpenTelemetry.WebAPI\OpenTelemetry.WebAPI.csproj", "{6D95BA81-56DF-463D-BBA5-FCCCD3779481}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenTelemetryPlayround", "OpenTelemetryPlayround", "{F38AC280-8761-4AD9-AE6A-92C8C5893A89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Identity", "OpenTelemetryPlayround\AwesomeShop.Identity\AwesomeShop.Identity.csproj", "{DB447F9A-6495-4EBB-A21C-D0FE595D02AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeShop.Identity", "OpenTelemetryPlayround\AwesomeShop.Identity\AwesomeShop.Identity.csproj", "{DB447F9A-6495-4EBB-A21C-D0FE595D02AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Product", "OpenTelemetryPlayround\AwesomeShop.Product\AwesomeShop.Product.csproj", "{3E70D821-01F5-4A62-9FEF-B39F429CC9A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeShop.Product", "OpenTelemetryPlayround\AwesomeShop.Product\AwesomeShop.Product.csproj", "{3E70D821-01F5-4A62-9FEF-B39F429CC9A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Inventory", "OpenTelemetryPlayround\AwesomeShop.Inventory\AwesomeShop.Inventory.csproj", "{0C74C2A3-3443-48E2-9D41-DC344534E2EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeShop.Inventory", "OpenTelemetryPlayround\AwesomeShop.Inventory\AwesomeShop.Inventory.csproj", "{0C74C2A3-3443-48E2-9D41-DC344534E2EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Gateway", "OpenTelemetryPlayround\AwesomeShop.Gateway\AwesomeShop.Gateway.csproj", "{5CBF5A77-0AE4-4AE6-9153-C1B8AA198114}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeShop.Gateway", "OpenTelemetryPlayround\AwesomeShop.Gateway\AwesomeShop.Gateway.csproj", "{5CBF5A77-0AE4-4AE6-9153-C1B8AA198114}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.FrontEnd", "OpenTelemetryPlayround\AwesomeShop.FrontEnd\AwesomeShop.FrontEnd.csproj", "{D566771E-5077-4FEB-940A-7A1A4B88D382}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwesomeShop.FrontEnd", "OpenTelemetryPlayround\AwesomeShop.FrontEnd\AwesomeShop.FrontEnd.csproj", "{D566771E-5077-4FEB-940A-7A1A4B88D382}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{BF353411-887E-4676-9C4D-9CD74B33AFB5}"
 EndProject
@@ -34,6 +34,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SS.WebHostBuilder", "packages\m1cx.api\src\packages\SS.WebHostBuilder\SS.WebHostBuilder.csproj", "{E6C8CF04-D145-49CD-B666-FC249DF3D4BC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SS.Serilog", "packages\m1cx.api\src\packages\SS.Serilog\SS.Serilog.csproj", "{1056857A-E534-463B-B4CC-EC15C3244F37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HtmlAgilityPack", "HtmlAgilityPack", "{1F30F8D7-F6B9-43AC-92E0-3163C96EC08D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M1GetListBuilder", "HtmlAgilityPack\M1GetListBuilder\M1GetListBuilder.csproj", "{D024BFEA-9418-4A86-8F41-EAEF7B5F07D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +93,10 @@ Global
 		{1056857A-E534-463B-B4CC-EC15C3244F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1056857A-E534-463B-B4CC-EC15C3244F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1056857A-E534-463B-B4CC-EC15C3244F37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D024BFEA-9418-4A86-8F41-EAEF7B5F07D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D024BFEA-9418-4A86-8F41-EAEF7B5F07D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D024BFEA-9418-4A86-8F41-EAEF7B5F07D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D024BFEA-9418-4A86-8F41-EAEF7B5F07D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +114,7 @@ Global
 		{F7883257-8C35-44E2-8DC7-D96F5BD3BE1F} = {BF353411-887E-4676-9C4D-9CD74B33AFB5}
 		{E6C8CF04-D145-49CD-B666-FC249DF3D4BC} = {F7883257-8C35-44E2-8DC7-D96F5BD3BE1F}
 		{1056857A-E534-463B-B4CC-EC15C3244F37} = {F7883257-8C35-44E2-8DC7-D96F5BD3BE1F}
+		{D024BFEA-9418-4A86-8F41-EAEF7B5F07D0} = {1F30F8D7-F6B9-43AC-92E0-3163C96EC08D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AFCCC982-AF7A-4B3C-8763-BF87DCB3345A}
