@@ -20,8 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\packages\m1cx.api\src\packages\SS.Serilog\SS.Serilog.csproj" />
-    <ProjectReference Include="..\..\packages\m1cx.api\src\packages\SS.WebHostBuilder\SS.WebHostBuilder.csproj" />
+    <ProjectReference Include="..\..\packages\SS.Serilog\SS.Serilog.csproj" />
+    <ProjectReference Include="..\..\packages\SS.WebHostBuilder\SS.WebHostBuilder.csproj" />
   </ItemGroup>
 
 </Project>
