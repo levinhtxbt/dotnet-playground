@@ -75,7 +75,7 @@ namespace OpenTelemetry.WebAPI
                     .SetSampler(new AlwaysOnSampler())
                     .AddZipkinExporter(option =>
                     {
-                        option.ServiceName = typeof(Startup).Assembly.GetName().Name;
+                        //option.ServiceName = typeof(Startup).Assembly.GetName().Name;
                         option.Endpoint = new Uri("http://localhost:9411/api/v2/spans");
                     })
             );
